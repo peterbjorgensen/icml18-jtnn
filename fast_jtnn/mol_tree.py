@@ -1,3 +1,4 @@
+import copy
 import rdkit
 import rdkit.Chem as Chem
 from jtnn.chemutils import get_clique_mol, tree_decomp, get_mol, get_smiles, set_atommap, enum_assemble, decode_stereo
